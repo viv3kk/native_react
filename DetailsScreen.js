@@ -6,7 +6,7 @@ const HtmlPage = require('./index.html');
 class DetailsScreen extends React.Component {
 
     msgHandler(event){
-        console.log("--->" + event.nativeEvent.data)
+        console.log("msgHandler-->" + event.nativeEvent.data)
     }
     render() {
         return (
