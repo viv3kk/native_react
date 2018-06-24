@@ -5,6 +5,9 @@ import HomeScreen from './HomeScreen';
 import DetailsScreen from './DetailsScreen';
 
 
+import { YellowBox } from 'react-native';
+YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader'])
+
 
 
 
